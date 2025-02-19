@@ -42,3 +42,8 @@ arr = [2,4,6,3,5,2,4,2,6,7,9]
 solution = Solution()
 result = solution.sortedSquares(arr)
 print("Index of target:", result) 
+
+"""暴力算法
+def sortedSquares(self, nums):
+   return sorted(x**2 for x in nums)
+"""
